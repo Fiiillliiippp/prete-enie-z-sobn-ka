@@ -503,4 +503,124 @@ form svg{
     fill: rgb(122, 122, 223);
 }
 
+.subscription {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.free {
+    background: whitesmoke;
+    border-radius: 15px;
+    margin: 0 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+.basic {
+    background: whitesmoke;
+    border-radius: 15px;
+        margin: 0 10px 10px 0;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+.business {
+    background: whitesmoke;
+    border-radius: 15px;
+        margin: 0 10px 10px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+.enterprise {
+    background: whitesmoke;
+    border-radius: 15px;
+        margin: 0 10px 10px 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+}
+.free h2,
+.basic h2,
+.business h2,
+.enterprise h2 {
+    margin-left: 5px;
+    background: var(--orange-color);
+    border-radius: 10px;
+    padding: 4px 7px 3px 7px;
+    font-size: 1em;
+}
+.sub-content hr {
+    width: 80%;
+}
+.sub-content {
+    padding: 5px 5px;
+    display: flex;
+    flex-direction: column;
+}
+.sub-con-svg {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 90%;
+}
+.sub-con-svg svg {
+    width: 50px;
+    margin-top: 12px;
+}
+.sub-content a {
+    background: var(--orange-color);
+    width: 70%;
+    margin: 10px auto;
+    padding: 3px 4px 2px 4px;
+    border-radius: 7px;
+    font-size: 1.1em;
+    color: black;
+}
+.free .sub-content a:hover,
+.free .sub-content a:focus {
+    background-color: var(--orenge-btn-color);
+}
+.basic .sub-content a,
+.basic h2 {
+    background: var(--blue-color);
+}
+.basic .sub-content a:hover,
+.basic .sub-content a:focus {
+    background-color: var(--blue-btn-color);
+}
+.business .sub-content a,
+.business h2 {
+    background-color: rgb(62, 154, 43);
+}
+.business .sub-content a:hover,
+.business .sub-content a:focus {
+    background-color: rgb(41, 197, 9);
+}
+.enterprise .sub-content a,
+.enterprise h2 {
+    background-color: rgb(223, 72, 193);
+}
+.enterprise .sub-content a:hover,
+.enterprise .sub-content a:focus {
+    background-color: rgb(226, 110, 203);
+}
