@@ -473,6 +473,7 @@ form svg{
 .earphones p,
 .together p {
     display: none;
+    text-align: center;
 }
 .rocket h1,
 .statistics h1,
@@ -498,6 +499,11 @@ form svg{
 .active {
     background: #424547;
     color: rgb(122, 122, 223);
+    width: 20%;
+    height: aut;
+}
+.active p {
+    display: block;
 }
 .active svg path {
     fill: rgb(122, 122, 223);
@@ -507,6 +513,7 @@ form svg{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 10px;
 }
 .free {
     background: whitesmoke;
@@ -523,8 +530,7 @@ form svg{
 .basic {
     background: whitesmoke;
     border-radius: 15px;
-        margin: 0 10px 10px 0;
-
+    margin: 0 10px 10px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -624,3 +630,76 @@ form svg{
 .enterprise .sub-content a:focus {
     background-color: rgb(226, 110, 203);
 }
+.hovering:focus,
+.hovering:hover {
+    animation: bigger 1s ease-in-out;
+}
+@keyframes bigger {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+    50% {
+        transform: scale3d(1.1, 1.1, 1.1);
+    }
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+/* FOOTER */
+footer {
+    background: var(--black-color);
+    width: 100%;
+    height: 100%;
+}
+.footer-div {
+    margin: 10px;
+    margin-bottom: 0;
+    padding: 10px 20px;
+}
+.footer-div nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-div nav div {
+    padding: 0 35px;
+}
+nav h4 {
+    color: rgb(195, 195, 195);
+    font-size: .8em;
+}
+nav ul {
+    padding: 0;
+}
+nav li a {
+    color: rgb(192, 192, 192);
+    font-size: .8em;
+}
+nav li a:hover,
+nav li a:focus {
+    color: rgb(227, 227, 227);
+}
+nav li {
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
